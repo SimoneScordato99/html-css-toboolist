@@ -66,6 +66,7 @@ h1 {
 h2::before {
     content: '\25BC';
     margin-right: 5px;
+    font-size: 15px;
 }
 p {
     font-size: 20px;
