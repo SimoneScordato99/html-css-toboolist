@@ -1,0 +1,131 @@
+* {
+    background-color: rgb(238, 236, 236);
+}
+.color-blue {
+    background-color: #47ADF1;
+    color: #fff;
+}
+.pils-form {
+    border-radius: 5px;
+}
+#logo {
+    margin: 10px 0 10px 20px;
+    vertical-align: middle;
+}
+.title {
+    background-color: #fff; 
+}
+h1 {
+    display: inline-block;
+    background-color: #fff;
+    vertical-align: middle;
+    font-size: 40px;
+}
+.container {
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);   
+}
+.buttons-container {
+    width: 800px;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 3px solid rgb(238, 236, 236) ;
+    line-height: 50px;
+    padding-left: 50px;   
+}
+.button {  
+    padding: 7px;  
+}
+#button-1 {
+    color: #fff;
+    border-color: #47ADF1;
+}
+#button-2 {
+    color: lightgray;
+    border-color: lightgray;
+    background-color: #fff;
+}
+
+
+
+
+.background-white {
+    background-color: #fff;
+    
+}
+.margin {
+    margin-top: 30px;
+}
+.list{
+    padding: 20px 50px;
+    background-color: #fff;
+    
+}
+h2::before {
+    content: '\25BC';
+    margin-right: 5px;
+}
+p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.before::before {
+    content: unset;
+    width: 15px;
+    height: 15px;
+    border: 2px solid unset;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    color: unset;
+    line-height: 15px;
+    font-size: 15px;
+}
+.bv::before {
+    content: '\2713';
+    border: 2px solid green;
+    color: green;
+}
+.bx::before {
+    content: '\2716';
+    border: 2px solid red;
+    color: red;
+}
+.after::after {
+    content: unset;
+    background-color: unset; 
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.after-blu::after {
+   content: 'Editorial';
+   background-color: #47ADF1;
+}
+.after-violet::after {
+    content: 'Q1 Goals';
+    background-color: #9C72E4;
+}
+.after-green::after {
+    content: 'Recruiting';
+    background-color: #64C0A9;
+}
+.after-orange::after {
+    content: 'Mobile';
+    background-color: #F29E33;
+}
+.after-pink::after {
+    content: 'Website';
+    background-color: #D863A1;
+}
+.after-slime::after {
+    content: 'Sales';
+    background-color: #B0C926;
+}
+
+
